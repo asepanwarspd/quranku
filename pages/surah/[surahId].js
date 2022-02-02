@@ -57,7 +57,7 @@ export default function SurahPage({ surah, previousSurah, nextSurah }) {
       </div>
       <main className="container content">
         <div className="flex flex-col text-center mt-5 mb-1">
-          <span className="text-arabic text-2xl text-gray-900 font-semibold" dir="rtl" lang="ar" text-align: justify;">{surah.name.long}</span>
+          <span className="text-arabic text-2xl text-gray-900 font-semibold" dir="rtl" lang="ar">{surah.name.long}</span>
           <span className="my-2 text-gray-800">
             {'( '}
             {surah.name.transliteration.id}
